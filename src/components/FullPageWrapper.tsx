@@ -1,7 +1,13 @@
 import React, { useEffect } from "react";
 import fullpage from "fullpage.js";
 import "fullpage.js/dist/fullpage.css";
-import "../styles/fullpageWrapper.css";
+import "../styles/FullPageWrapper.css";
+
+/* 
+ * This project uses fullpage.js under the terms of the GPLv3 license.
+ * Fullpage.js is a JavaScript library to create full screen scrolling websites.
+ * For more information, visit: https://github.com/alvarotrigo/fullPage.js
+ */
 
 const FullPageWrapper: React.FC = () => {
   useEffect(() => {

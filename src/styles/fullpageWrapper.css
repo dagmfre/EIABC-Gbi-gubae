@@ -1,17 +1,21 @@
-.horizontal-carousel {
-    display: flex;
-    overflow: hidden;
-  }
-  
-  .horizontal-slide {
-    min-width: 100%;
-    transition: opacity 1s ease-in-out;
-  }
-  
-  .fade {
-    opacity: 0;
-  }
-  
-  .horizontal-slide.active {
-    opacity: 1;
-  }
+/* 
+ * This project uses fullpage.js under the terms of the GPLv3 license.
+ * Fullpage.js is a JavaScript library to create full screen scrolling websites.
+ * For more information, visit: https://github.com/alvarotrigo/fullPage.js
+ */
+
+ .horizontal-carousel {
+  display: flex;
+  overflow: hidden;
+}
+
+.horizontal-slide {
+  min-width: 100%;
+  transition: opacity 1s ease-in-out;
+}
+
+.fade {
+  opacity: 0.5;
+}
+
+/* Add additional styles as needed */
