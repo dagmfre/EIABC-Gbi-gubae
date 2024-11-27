@@ -1,0 +1,17 @@
+.horizontal-carousel {
+    display: flex;
+    overflow: hidden;
+  }
+  
+  .horizontal-slide {
+    min-width: 100%;
+    transition: opacity 1s ease-in-out;
+  }
+  
+  .fade {
+    opacity: 0;
+  }
+  
+  .horizontal-slide.active {
+    opacity: 1;
+  }
